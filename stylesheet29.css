@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;;
+    font-weight: 700;
+}
+   
+body{
+    background-color:  hsl(0, 0%, 8%);
+}
+.container{
+    margin-left: 510px;
+    align-items: center;
+    text-align: center;
+    height: 120vh;
+    width: 30%;
+    background-color: hsl(0, 0%, 12%);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+img{
+    margin-top: 50px;
+    border-radius: 50%;
+    
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+h3{
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    padding-left: 35px;
+} 
+h4{
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+   padding-left: 40px;
+   font-size: 14px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+button{
+    padding: 20px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    font-weight: 700;
+}
+h5{
+    color: white;
+}
+span{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: .5s ease;
+}
+/* Your existing styles here */
+
+/* Media query for screens up to 600px width */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%; /* Adjust as needed */
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    img {
+        margin-top: 10px; /* Adjust as needed */
+    }
+
+    h4 {
+        margin-top: 15px; /* Adjust as needed */
+    }
+
+    .buttons {
+        padding: 10px; /* Adjust as needed */
+    }
+
+    button {
+        padding: 10px; /* Adjust as needed */
+    }
+
+    span {
+        font-size: 14px; /* Adjust as needed */
+    }
+}
+
+
